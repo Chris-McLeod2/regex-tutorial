@@ -24,7 +24,7 @@ one in particular is used for validating emails and this tutorial will explain h
 ## Regex Components
 
 ### Anchors
-
+^ indicated the beggining of the string whereas $ indicated the ending of the string for validation a visual example of this would be ^validemail@gmail.com$
 ### Quantifiers
 
 ### OR Operator
