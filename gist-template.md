@@ -33,7 +33,7 @@ flags used in this regex incluce g which is a global search to ensure you do not
 ### Grouping and Capturing
 the capturing groups in this expression are ([a-z0-9_\.-]+) this matches the user email name in this case this is validemail, The second capturing group is ([\da-z\.-]+) which in this case would be the gmail, and ([a-z\.]{2,6}) is used to capture the domain at the end in this case .com
 ### Bracket Expressions
-
+the bracket expressions used within this regex include [a-z0-9_\.-], [\da-z\.-], and [a-z\.]. the first of these is ensuring any letter a-z is lowercase and matches, any number between 0-9 will be accepted and it is allowing the special characters of _, -, and ., the second of these bracket expression is searching for any lowercase letter or hyphen/period and the last bracket is searching for any lowercase letter and and period
 ### Greedy and Lazy Match
 
 ### Boundaries
