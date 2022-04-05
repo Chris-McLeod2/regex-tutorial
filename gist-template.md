@@ -35,13 +35,7 @@ the capturing groups in this expression are ([a-z0-9_\.-]+) this matches the use
 ### Bracket Expressions
 the bracket expressions used within this regex include [a-z0-9_\.-], [\da-z\.-], and [a-z\.]. the first of these is ensuring any letter a-z is lowercase and matches, any number between 0-9 will be accepted and it is allowing the special characters of _, -, and ., the second of these bracket expression is searching for any lowercase letter or hyphen/period and the last bracket is searching for any lowercase letter and and period
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
-
+This regex does not use lazy matching however it does use two instances of greedy matching the first being the + symbol which will match as many times as needed to validate the email and the other being the {2-6} which will do the same for the ending part of the email.
 ## Author
+View my other projects at https://github.com/Chris-McLeod2
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
